@@ -1,0 +1,75 @@
+<html>
+   
+    
+    <style>
+        input{
+            width: 75%;
+            height: 50px;
+        }
+        button{
+            width: 70px;
+            height: 50px;
+            background-color: green;
+            color: white;
+            font-size: 15px;
+            border-radius: 20px;
+        }
+        
+        
+        .fd{
+            background-color: green;
+            display: block;
+            color: white;
+            width: 100%;
+            border-radius: 10px;
+            padding: 2px;
+        }
+    </style>
+    
+  <script type="text/javascript" src="def.js"></script>
+  <script type="text/javascript" src="jquery.js"></script> 
+    
+    <!---password html5--->
+    <h1>Password App</h1>
+    <br><br><br><br><br><br>
+    <form onsubmit="event.preventDefault()">
+    <input type="password" placeholder="Type to begin..." id="name">    
+        <button id="sub" onclick="userPass()">Check</button>
+    </form>
+    <!----------end---------->
+    
+    
+    <!-------password begin test-------->
+    <b>
+        Show Result
+    </b>
+    <br>
+    <br>
+    <!------------result------------->
+   <div id="g"> 
+    <div class="fd">
+    <p id="dis">
+       processing
+    </p>
+       </div>
+       <br>
+        Your Password is:
+        <b id="pass">
+        </b>
+        
+    </div>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>
